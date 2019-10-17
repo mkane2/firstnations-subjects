@@ -5,7 +5,7 @@ var svg = d3.select("svg"),
 
 var radius = function(d) {return d.degree};
 
-d3.json("sfu-subjects.json", function(error, graph) {
+d3.json("subjects.json", function(error, graph) {
       if (error) throw error;
 
       //set up the simulation and add forces
